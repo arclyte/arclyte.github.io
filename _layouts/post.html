@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
+<h1>{{ page.title }}</h1>
+<p class="lead">by <a href="/">James Alday</a></p>
+<hr>
+<p>
+	<span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date_to_string }}
+</p>
+<hr>
+<img src="http://placehold.it/900x300" class="img-responsive">
+<hr>
+<p class="lead">
+	{{ content }}
+</p>
