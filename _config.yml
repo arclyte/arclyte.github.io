@@ -1,3 +1,17 @@
 name: James Alday
 markdown: redcarpet
 pygments: true
+
+ogtags:
+ - name: image
+   value: http://jamesalday.com/images/kbomb.jpg
+ - name: title
+   value: James Alday
+ - name: description
+   value: Personal Blog for James Alday
+ - name: url
+   value: http://jamesalday.com
+ - name: site_name
+   value: James Alday Blog
+ - name: type
+   value: blog

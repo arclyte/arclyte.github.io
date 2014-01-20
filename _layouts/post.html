@@ -6,8 +6,12 @@ layout: default
 <p>
 	<span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date_to_string }}
 </p>
+
+{% if page.header_image %}
 <hr>
 <img src="{{site.url}}/images/{{page.header_image}}" class="img-responsive">
+{% endif %}
+
 <hr>
 <p class="lead">
 	{{ content }}
