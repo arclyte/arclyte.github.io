@@ -2,6 +2,8 @@ name: James Alday
 markdown: redcarpet
 pygments: true
 
+url: http://jamesalday.com
+
 ogtags:
  - name: image
    value: http://jamesalday.com/images/kbomb.jpg
