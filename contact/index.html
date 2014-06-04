@@ -42,6 +42,7 @@ $(document).ready(function() {
 		var contact = new ContactObject();
 		contact.save(contact_data, {
 			success: function() {
+				$('#contactForm')[0].reset();
 				alert("Thanks for contacting me!");
 			},
 			error: function(e) {
