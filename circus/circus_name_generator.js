@@ -15,6 +15,7 @@ var name_generator = {
 		var name = "";
 
 		for (i = 0; i < 9; i++) {
+			if (i == 5) name += "and ";
 			name += this.names[i][Math.floor(Math.random() * this.names[i].length)] + " ";
 		}
 
