@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Circus Name Generator</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+		<style>
+			body {
+				padding-top: 50px;
+				padding-bottom: 20px;
+			}
+
+			#circus-name {
+				font-size: 1.2em;
+				font-weight: bold;
+				padding: 20px;
+			}
+		</style>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/readable/bootstrap.min.css">
+
+		<script></script>
+	</head>
+	<body>
+		<div class="jumbotron">
+		  <div class="container">
+			<h1>Circus Name Generator</h1>
+			<p>
+				This generator creates a random circus name, based on the wonderful list of names compiled here: 
+				<a href="http://www.majorchumleighscircus.org/fun-stuff/circus-generator">Major Chumleigh's Circus Name Generator</a>
+			</p>
+		  </div>
+		</div>
+
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12">
+			  <h3>Circus Name:</h3>
+			  <div id="circus-name"></div>
+			  <a id="generate" href="#" class="btn btn-primary">Generate Name</a>
+			</div>
+		  </div>
+		</div> <!-- /container -->
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="circus_name_generator.js"></script>
+
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create', 'UA-47278397-1', 'jamesalday.com');
+			ga('send','pageview');
+		</script>
+	</body>
+</html>
