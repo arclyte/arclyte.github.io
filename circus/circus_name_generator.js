@@ -26,7 +26,8 @@ var name_generator = {
 $(function() {
 	name_generator.generate_name();
 
-	$('#generate').on('click', function() {
+	$('#generate').on('click', function(e) {
+		e.preventDefault();
 		name_generator.generate_name();
-	})
-})
+	});
+});
