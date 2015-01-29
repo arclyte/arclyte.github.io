@@ -1,6 +1,6 @@
 name: James Alday
 markdown: redcarpet
-pygments: true
+highlighter: false
 
 url: http://jamesalday.com
 
@@ -17,3 +17,6 @@ ogtags:
    value: James Alday Blog
  - name: type
    value: blog
+
+gems:
+  - jekyll-sitemap
