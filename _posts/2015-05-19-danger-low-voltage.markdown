@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The loneliness of the low-voltage wirer"
+title:  "Danger! Low Voltage!"
 date:   2015-05-19 11:00:00
 header_image: 1024px-Uncrimped_rj-45_connector_close-up.jpg
 ---
