@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On Nietzsche's 'The Gay Science'"
+title:  "On Nietzsche&#39;s &#39;The Gay Science&#39;"
 date:   2003-09-23 04:30:00
 header_image: gay_science.png
 ---
