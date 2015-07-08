@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mother\'s Day"
+title:  "Mother&#39;s Day"
 date:   2001-08-20 14:29:00
 header_image: reyes.png
 ---
