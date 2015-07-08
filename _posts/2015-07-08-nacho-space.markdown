@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Nacho Space (Notes on a study of psychosocial identity exploration and formation on social networks, circa 2006)"
-date:   2015-07-08 10:54:00
+title:  "Nacho Space (Notes on a study of teen psychosocial identity on social networks)"
+date:   2006-11-06 13:04:07
 header_image: 
 ---
 
@@ -237,6 +237,8 @@ data, as there is just way too much to write about.  Seeing as the presentation 
 to do some editing of this report, nevermind one that includes all of the results I've gotten.  I'm hoping to keep going with 
 this and produce more results as I dig deeper into the functions of SPSS, learning and producing at the same time.
 
-2006-11-06 13:04:07	2006-11-06 13:04:07
+Hiatus
+======
+**2006-11-06 13:04:07**
 
 I've taken a bit of a hiatus from my research over the past week.  I went to the MAPACA conference and gave my presentation, but have yet to put it together into a written paper.  At the outset, I thought I would have the paper before going off to the conference, but a few things prevented that from being the case.  My personal life has played intereference with my professional goals over the past few weeks, and I'm still pretty much trying to get them back in order.  I have, however, been asked to submit the paper to the journal for MAPACA, so I will be putting it together into a more formal format sometime very soon.  For now I'm just trying to catch up with the school work I've missed in getting this together and figuring out how to go about applying to graduate schools...  This is always the worst part of the semester.  I'm stuck between anxiously awaiting the end and hoping wishing for just a few more weeks to get my act together.  Stay tuned, I'll have something pretty published shortly.  I'm probably going to post the powerpoint slides from my presentation.
