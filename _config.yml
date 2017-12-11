@@ -1,6 +1,6 @@
 name: James Alday
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 url: http://jamesalday.com
 
