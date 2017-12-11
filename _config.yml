@@ -1,5 +1,5 @@
 name: James Alday
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
 url: http://jamesalday.com
