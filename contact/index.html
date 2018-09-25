@@ -3,8 +3,7 @@ layout: default
 title: Contact | James Alday
 ---
 
-<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.9.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 
 <h1>Contact</h1>
 
@@ -25,30 +24,46 @@ title: Contact | James Alday
 </form>
 <script type="text/javascript">
 $(document).ready(function() {
-	var ParseAppId = "KX1H6PTX2gxZIbvSVANWzaSUGSdDqGJkUmV3smrx";
-	var ParseJSID = "zSl8hztTYPmIeUhDDWz2BYC11IvMOp5UHBkZsLna";
-
-	Parse.initialize(ParseAppId, ParseJSID);
-	var ContactObject = Parse.Object.extend('ContactObject');
-
-	$('#contactForm').on('submit', function(e) {
-		e.preventDefault();
-
-		var contact_data = {};
-		contact_data.name = $('#name').val();
-		contact_data.email = $('#email').val();
-		contact_data.comments = $('#comments').val();
-
-		var contact = new ContactObject();
-		contact.save(contact_data, {
-			success: function() {
+	$('#contactForm').validate({
+		debug: true,
+		submitHandler: function(form) {
+			$.ajax({
+				type: "POST",
+				url: "https://yy0y3nhpog.execute-api.us-east-1.amazonaws.com/prod/contact"
+				headers: {
+					'x-api-key': "gIc35vWTwM6LMeE1DCzKP4MHrgWPTudU5xGjl7Tr"
+				}
+			})
+			.done(function(data) {
 				$('#contactForm')[0].reset();
 				alert("Thanks for contacting me!");
-			},
-			error: function(e) {
+			})
+			.fail(function(xhr, status, errror) {
 				alert("Sorry! There was an error with the form.");
+			})
+		},
+		invalidHandler: function(event, validator) {
+			var errors = validator.numberofInvalids();
+		},
+		rules: {
+			name: "required",
+			email: {
+				required: true,
+				email: true
+			},
+			comments: {
+				required: true,
+				minlength: 20
 			}
-		});
+		},
+		messages: {
+			name: "Please include your name.",
+			email: "Please enter a valid email address.",
+			comments: {
+				required: "A message is required.",
+				minlength: jQuery.validator.format("At least {0} characters required!")
+			}
+		}
 	});
 });
 </script>
